@@ -18,3 +18,4 @@ RUN python -m pip install jupyterlab
 RUN python -m pip install xmltodict
 RUN pip install pandas
 RUN pip install numpy
+RUN pip install lxml
