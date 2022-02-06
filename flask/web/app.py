@@ -63,3 +63,10 @@ def upload_multipart():
     print('UPLOAD_DIR={}'.format(UPLOAD_DIR))
     file.save(os.path.join(UPLOAD_DIR, saveFileName))
     return make_response(jsonify({'result':'upload OK.'}))
+
+@app.route('/data/download')
+def download():
+    return send_file(os.path.join(UPLOAD_DIR,'output.csv'),
+                     mimetype='text/csv',
+                     attachment_filename='output.csv',
+                     as_attachment=True)
