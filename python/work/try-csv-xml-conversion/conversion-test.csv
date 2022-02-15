@@ -1,4 +1,13 @@
-name,rank,year,gdppc,neighbor
-Liechtenstein,1,2008,141100,
-Singapore,4,2011,59900,
-Panama,68,2011,13600,
+extension,root,nullFlavor,code,codeSystem,value,{urn:hl7-org:v3}patientRole,{urn:hl7-org:v3}time,{urn:hl7-org:v3}assignedAuthor,{urn:hl7-org:v3}assignedCustodian,typeCode,{urn:hl7-org:v3}functionCode,{urn:hl7-org:v3}associatedEntity,{urn:hl7-org:v3}serviceEvent,{urn:hl7-org:v3}structuredBody
+POCD_HD000040,2.16.840.1.113883.1.3,,,,,,,,,,,,,
+,,NI,,,,,,,,,,,,
+,,,21,1.2.392.200119.6.1001,,,,,,,,,,
+,,,,,20181003.0,,,,,,,,,
+,,,N,2.16.840.1.113883.5.25,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,HLD,,,,
+,,,,,,,,,,HLD,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
